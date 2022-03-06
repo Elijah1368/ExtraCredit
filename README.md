@@ -28,7 +28,7 @@ Here is the runtime in miliseconds for each N sized Array
 
 <img src="assets/range3.png" width="60%" height="60%" />
 
-<img src="assets/Range Algorithm3.png" width="60%" height="60%" />
+<img src="assets/Range Algorithm 3.png" width="60%" height="60%" />
 
 Here is a runtime comparison of each algorithm side by side
 
