@@ -5,7 +5,10 @@ The range algorithm is to compute the maximum difference of any 2 given elements
 
 Range 1 Algorithm - Brute Force Solution. Iterate through each element and then compute difference of that element
 with ALL of the elements in the Array. Runtime is O(n^2) because you iterate through the whole N-sized Array for N amount of times.  
+
+Here is the runtime in miliseconds for each N sized Array 
 <img src="assets/range1.png" width="60%" height="60%" />
+<img src="assets/Range 1 Algorithm.png" width="60%" height="60%" />
 
 Range 2 Algorithm - Similar to Range 1 Algorithm, but only iterate from the CURRENT element of the array and the end. This is because you don't have to 
 go through the same pair of elements again once you've gone through them already. Runtime is still O(n^2).
