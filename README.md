@@ -1,18 +1,15 @@
-## Getting Started
+Runtime Measurement of 3 different Range Algorithms
+---------------------------------------------------
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The range algorithm is to compute the maximum difference of any 2 given elements in an array
 
-## Folder Structure
+Range 1 Algorithm - Brute Force Solution. Iterate through each element and then compute difference of that element
+with ALL of the elements in the Array. Runtime is O(n^2) because you iterate through the whole N-sized Array for N amount of times.  
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Range 2 Algorithm - Similar to Range 1 Algorithm, but only iterate from the CURRENT element of the array and the end. This is because you don't have to 
+go through the same pair of elements again once you've gone through them already. Runtime is still O(n^2).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Range 3 Algorithm - Instead of comparing each pair of element. You only need to find the maximum and minimum number of the array then compute the difference
+between the two. Runtime is O(n) because you only go though the array once.
